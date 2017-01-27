@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+    <a href="" class="btn btn-default" onClick="popitup('progressbar.php')">Sanitize Code</a>
+    <script type="text/javascript">
+      function popitup(url) {
+        console.log("asd");
+        newwindow=window.open(url,'name','height=500,width=500');
+        if (window.focus) {newwindow.focus()}
+          return false;
+        }
+    </script>
+  </body>
+</html>
